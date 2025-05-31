@@ -42,7 +42,7 @@ const Navbar1 = () => {
             transition={{ duration: 0.3 }}
           >
             <Image src="/ameraa.webp" alt="Logo" width={40} height={40} />
-            <h1 className="text-2xl font-medium tracking-tighter text-yellow-400">Ameera Finnway</h1>
+            <h1 className="md:text-2xl text-lg font-medium tracking-tighter text-yellow-400">Ameera Finnway</h1>
           </motion.div>
         </div>
 
