@@ -84,7 +84,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.h1
-            className="md:text-5xl text-[1.5rem] md:leading-normal leading-tight"
+            className="md:text-5xl text-[1.5rem] leading-tight"
             variants={fadeInVariant}
             initial="hidden"
             animate="visible"
