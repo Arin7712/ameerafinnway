@@ -70,10 +70,10 @@ const Hero = () => {
         />
       </motion.div>
 
-      <Navbar1 />
+      {/* <Navbar1 /> */}
 
       {/* Main Content */}
-      <div className="relative z-10 flex items-center justify-center h-auto md:pt-0 pt-[6rem] md:h-[80vh] md:px-0 px-6">
+      <div className="relative z-10 flex items-center justify-center h-[100vh] md:px-0 px-6">
         <div className="flex flex-col gap-4 md:gap-6 items-center justify-center text-center max-w-lg md:max-w-3xl">
           <motion.div
             variants={fadeInVariant}
@@ -85,7 +85,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.h1
-            className="md:text-5xl text-[1.5rem] leading-tight"
+            className="md:text-5xl text-2xl md:font-normal font-medium leading-tighter"
             variants={fadeInVariant}
             initial="hidden"
             animate="visible"
@@ -96,7 +96,7 @@ const Hero = () => {
           </motion.h1>
 
           <motion.p
-            className="md:max-w-xl md:text-sm text-xs"
+            className="md:max-w-xl md:text-sm text-sm"
             variants={fadeInVariant}
             initial="hidden"
             animate="visible"

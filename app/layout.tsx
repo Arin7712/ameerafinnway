@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Open_Sans, Poppins, Roboto } from "next/font/google";
 import "./globals.css";
+import { Navbar1 } from "@/components/ui/navbar-1";
 
 const font = Poppins({weight: ["200", "300", "400", "500", "600", "700", "800", "900"], subsets: ["latin"]});
 
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body
         className={font.className}
       >
+        <Navbar1/>
         {children}
       </body>
     </html>
