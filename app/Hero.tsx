@@ -126,10 +126,10 @@ const Hero = () => {
           >
             <h1 className="text-neutral-600 text-xs">Trusted by 50+ Banks and Businesses</h1>
             <div className="text-neutral-600 md:block hidden">
-            ✅ ₹500+ Cr Disbursed 🏆 8+ Sectors 📍 India Coverage
+            ✅ ₹500+ Cr Disbursed 🏆 8+ Sectors 📍 PAN India Coverage
             </div>
               <div className="text-neutral-600 md:hidden block">
-            ✅ ₹500+ Cr Disbursed 🏆 8+ Sectors 📍 India Coverage
+            ✅ ₹500+ Cr Disbursed 🏆 8+ Sectors 📍PAN India Coverage
             </div>
           </motion.div>
         </div>
