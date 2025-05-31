@@ -122,7 +122,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             custom={1}
-            className="flex flex-col items-center gap-2 text-xs md:text-sm md:px-0 px-2 absolute bottom-15 md:bottom-10 md:max-w-auto max-w-lg"
+            className="flex flex-col items-center gap-2 text-xs md:text-sm md:px-0 px-2 absolute bottom-25 md:bottom-10 md:max-w-auto max-w-lg"
           >
             <h1 className="text-neutral-600 text-xs">Trusted by 50+ Banks and Businesses</h1>
             <div className="text-neutral-600 md:block hidden">
