@@ -116,6 +116,19 @@ const Hero = () => {
               Apply Now<span className="ml-1">→</span> 
             </Button>
           </motion.div>
+          {/*Trust Bar*/}
+                    <motion.div
+            variants={fadeInVariant}
+            initial="hidden"
+            animate="visible"
+            custom={1}
+            className="flex flex-col items-center gap-2 text-sm absolute bottom-10"
+          >
+            <h1 className="text-neutral-600 text-xs">Trusted by 50+ Banks and Businesses</h1>
+            <div className="text-neutral-600">
+            ✅ ₹500+ Cr Disbursed 🏆 8+ Sectors 📍 India Coverage
+            </div>
+          </motion.div>
         </div>
       </div>
     </div>

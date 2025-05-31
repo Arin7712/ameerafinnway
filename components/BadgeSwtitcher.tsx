@@ -22,7 +22,7 @@ export const BadgeSwitcher = () => {
 
   return (
     <div className="flex items-center gap-2 px-5 rounded-full bg-white py-2 shadow-md w-[14rem]">
-      <Landmark className="size-4 text-yellow-500" />
+      <Landmark className="size-4 text-green-400" />
       <div className="relative h-[1.25rem] w-full overflow-hidden">
         <AnimatePresence mode="wait">
           <motion.div
