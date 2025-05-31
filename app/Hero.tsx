@@ -84,7 +84,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.h1
-            className="md:text-5xl text-3xl"
+            className="md:text-5xl text-[1.5rem] md:leading-normal leading-tight"
             variants={fadeInVariant}
             initial="hidden"
             animate="visible"
@@ -95,7 +95,7 @@ const Hero = () => {
           </motion.h1>
 
           <motion.p
-            className="md:max-w-xl text-sm"
+            className="md:max-w-xl md:text-sm text-xs"
             variants={fadeInVariant}
             initial="hidden"
             animate="visible"

@@ -31,7 +31,7 @@ export const BadgeSwitcher = () => {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -20, opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="absolute left-0 top-0 text-sm text-neutral-700 w-full"
+            className="absolute left-0 top-0 md:text-sm text-xs text-neutral-700 w-full"
           >
             {badgeTexts[index]}
           </motion.div>
