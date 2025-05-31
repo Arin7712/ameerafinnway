@@ -66,14 +66,15 @@ const Hero = () => {
           alt="Emblem"
           width={500}
           height={300}
+          className="md:opacity-100 opacity-0"
         />
       </motion.div>
 
       <Navbar1 />
 
       {/* Main Content */}
-      <div className="relative z-10 flex items-center justify-center h-[75vh] md:h-[80vh] md:px-0 px-6">
-        <div className="flex flex-col gap-6 items-center justify-center text-center max-w-lg md:max-w-3xl">
+      <div className="relative z-10 flex items-center justify-center h-auto md:pt-0 pt-[6rem] md:h-[80vh] md:px-0 px-6">
+        <div className="flex flex-col gap-4 md:gap-6 items-center justify-center text-center max-w-lg md:max-w-3xl">
           <motion.div
             variants={fadeInVariant}
             initial="hidden"
